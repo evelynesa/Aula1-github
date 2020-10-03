@@ -22,8 +22,10 @@ public class UtilizandoCalendar {
 		//Buscando uma unidade de Tempo
 		int minutos = cal.get(Calendar.MINUTE);
 		int mes = cal.get(Calendar.MONTH)+1; //Sempre Adicione 01 porque para a classe Calendar, o mês de Janeiro equivale ao mês 0
+		int ano = cal.get(Calendar.YEAR); //Sempre Adicione 01 porque para a classe Calendar, o mês de Janeiro equivale ao mês 0
 		System.out.println("Minutos da Hora Atual: "+minutos);
 		System.out.println("Mês Hora Atual: "+mes);
+		System.out.println("Ano Hora Atual: "+ano);
 		
 }
 }
